@@ -1,0 +1,355 @@
+                         JavaScript
+1) Display functions:------------index0.js
+  alert("hello Batch")
+  console.log("Hello batch in console");
+  document.write("Hello batch in console");
+  console.log("error present");
+  prompt
+  ("He got a warning");
+2) Data Type:-
+     Premitive type
+  a. String
+  b. Number
+  c. Boolean
+  d. Null
+  e. Undefined
+  f. Symbol
+    Reference type(Non-Premitive)
+  a. Array{}
+  b. Object[]
+  c. Function():-function is a block of code to perform a perticular task.
+  d. regEx(Regular expression"//;")
+3) Popup Box type:-
+  a. document.write("javascript is a simple language");
+  b. alert("Hello");
+  c. prompt("Hello please enter your name");
+  d. confirm("DO YOU WANT TO DELEATE THE PAGE");
+4) Identifier type:-
+  a. var(var decleration are global scope or function scope. Var can updated and re-declered within its scope.)
+  b. const(const are block scoped. const variable can neither be updated nor re-declered)
+  c. let(let is also blocked scope. let variables can be updated but cannot be re-declered).
+5) Array Methods:------------------index1.js
+  a. Pop():-removes the last element of an array.
+  b. Shift():-removes the first element of an array.
+  c. Push():-adds an element to the end of an array.
+  d. Unshift():-adds an element at the begining of an array.
+  e. Slice(), f. Concat(), g. Join(), h. Sort(), i. Splice(), j. Reverse(), k. toLocalString(), l. toString().
+6) (A) Comparision operarors:------------------------logicaloperators2.js
+  a. Equal(==)
+  b. Not eqaul(!=)
+  c. Strict equal(===)
+  d. Strict not equal(!==).......Etc (greater,greater than eqaul....)
+  (B) Logical operators:-
+  a. Logical AND(&&)
+  b. Logical OR(||)
+  c. Logical NOT(!)
+7) a.string concatination
+  b.template string
+  c.String to array  conversion
+  d.CRUD
+8) Higher oder arrays
+  a. forEach
+  b. filters
+  c. map
+  d. Sort
+  e. some and each
+
+
+
+
+
+
+
+
+
+
+
+                           NOTES
+# DATA TYPES
+1. string(anything written inside doubl quot or single quot in the form "bfbfb'nfn'nf")
+2. number(any no strting from zero, zero will be written as .0)
+3. bolean(true or false- 0's or 1's)
+4. symbol(=>,{} etc. It is used in ECMA script)
+5. null(means nothing)
+6. undefined(which is not defined or explained)
+Q. what are the data types?
+Q. What/different b/w let, varr, const?
+Q. diff bw put, put and patch?
+(Post is used for resource creation, Put is used for resource update, 
+while Patch ia an alteernative for resource updates as it allows partial updates)
+Q. whar is microservice?
+Q. Diff bw Agile and Waterfall?
+Q. What is micro technology?
+Q. What is software development life-cycle?
+Q. Diff bw property, method, function?(property-typeof,method-which in the form x(), function-which is x(){} i.e bracket followed by curly bracket)
+(Includes:- Planning, Analysing, Design, Development, Testing, Implementation and Maintenance )
+Q. Why return is used?
+Q. What is .then , .this?
+*Var( it is re-write)
+*let(not re-write)
+*const(not re-write)
+
+#(=,==,===)
+= is to asign
+== is used to compair
+=== is used to compair but also compair the data type.
+* Form is the bridge bw Frontend and backend.
+* CRUD( Creat, Read, Update, Delete) in localstorage.
+
+
+*{} something writen inside curly bracket is an object
+*[] something writen inside curly bracket is an array.
+
+*DOM(Documeent object model) = used to document in the background i.e by coding in the background using vscode.
+*BOM(Browser object model) = used to document in the browser.
+*callBack= a function calling anoother function is callback.(It is used to do some task)
+Q.Define property, Method, function?
+-property= typeof.
+-method=which is in the form x().
+-function= which is in the form x(){}.(bracket followed by curly bracket.)
+*div(on small section of display in html whick can be costumised in css.)
+
+
+#Callback, Async and Promises
+->A callback is a function that is to be executed after another function has finished execting
+  ,hence the name is callback.
+->Promises(like callback) allow us to wait on certain code to finish execution prior to running
+  the next bit of code.
+=types of Promises:-
+ -Pending:Asynchronous operation has not completed yet.
+ -Fulfilled:Operation is finished and promish has a value.
+ -Rejected:Operation has completed with an error or failed
+
+ *diff bw decleratiion and initilization?
+ ->Initionalizing is assigning the value for the identifiers.
+ ->And Decleratiion is like the derivative of initilized value.
+
+ #Events in js(programs class)
+ -onClick
+ -onDoubleClick
+ -onLoad
+ -onMousehover
+ -onMousedown(pgm18-19)
+ -onKeypress(pgm20)
+ -onKeyup(once the key is left o/p will appear or display)
+ -onCopy(if th data is copied the aadmin will come toknow in backend)
+ -Dataevent(pgm26)
+
+ Q)Diff bw iife and closure?
+
+*Closure:-
+->Callback and Nested Function
+-Callback function is used to call another function.
+-Nestd function is a function inside another function.(x()) is in this form depend on the no of function inside.
+
+*IIFE:-(imediately invoked function Expression....)-(function(){})() is written in this form.
+-Used in plugins.
+
+*FirstClassFunction:-
+
+
+
+
+
+-----------------------------------INTERVIEW QUESTIONS
+1.what Different type of data types?
+Data type-> String, Numbers, Boolean, Null, undefiend, symbol(ES6),rating
+
+2.what is a array?
+They are the one who hold multiple values
+
+3.Different type of identifiers/variables?
+var, let, const
+
+4.what is call back function?
+A callback is a function that is to be executed after another function has 
+finished executing — hence the name 'call back
+
+5.what is a object and different methods to crete object?
+Object is the one that hold diffrent properties (key value pairs)
+-two method of creating objects are Object can be created using Template Literal Notaion,
+ Construction function - Object()
+- two different way to add property to template literal notation is dot notation and 
+  array method.
+
+6.why is javascript a first class function?
+A function can be passed as a variable, function can be passed as an argument/parameter
+, function can be called by another function.
+
+7.what is scope
+When a function is run, it creates its own scope. A function's scope is the set of variables available for use within that function. The scope of a function includes:
+The function's arguments.
+Local variables declared within the function.
+Variables from its parent function's scope.
+Global variables.
+-scope heirarcy     Global Scope-> Parent Scope -> Child Scope.
+
+8. what is iife
+iife(immediately invoked function expression):
+A function which is immediately defined after its defined is called IIFE.
+A function declaration defines a function and does not require a variable to be assigned to it. It simply declares a function, and doesn't itself return a value.
+A function expression does return a value. Function expressions can be anonymous or named, and are part of another expression's syntax
+One of the primary uses for IIFE's is to create private scope (i.e., private state)., used in plug ins
+iife doesnt allow closure to have any interaction in the function defined.
+
+9.what is closure
+-A closure is a function that has access to the parent scope, even after the scope has closed.2333333
+-A clsoure is an inner function which has access to outerfunction variable's in addition to its own variables and global variables.
+
+10 what is constructor function
+In constructor function it returns an object, constructor function has its object created automatically,to add methods or property we have to use "this" keyword.
+-constructor function should allways be called with a capital letter,
+-constructor funciton should allways be started with a word new.
+-construtor is a function that create an instance of class and a object in it.
+
+11.what is a class
+Classes are a template for creating objects
+class is a instance/blue print to create many objects(predominantly constructor object)
+
+
+-undefined and boolean values in js
+  undefined means no value for the property.
+  zero has a value of the property and it has nothing to do with undefiend
+
+-if else in JS
+  === is to check if it is same object and string
+
+-Logical operator
+&& - AND operator  -> both sides need to be true(we need both cofee and tea)
+|| -OR operator -> one side need to be ture (like you need coffee or tea)
+
+12. what is this key word?
+this = this is a special keyword present inside every constructor function and method, 
+             this is a reference variable, which always points to the object with which we are currently working.
+             this is used to access members(i.e attributes and behaviours) of the currently working objects.
+	     this refer to that particular property we are calling for.
+
+13.How do you convert string to object
+const X = JSON.stringify(object);
+
+ARRAY
+JavaScript arrays are used to store multiple values in a single variable.
+An array can be created using array literal or Array constructor syntax. it is basically used for numbers
+Array constructor syntax:  var numericArray = new Array(x);  it is basically used for strings
+Array literal syntax: var stringArray = ["one", "two", "three"];
+	array.indexof(' ') ,   delete array[i];,  array.tostring();
+	-Important methods of ARRAY-  pop()  ,  push() [pop and push deals with end of the array],  shift(),  unshift()[shift and unshift deals with begining of the array].
+	tostring().    pop and shift is to remove  /and/ push and unshift is to add
+	-splice(x,y,"","") will help us to add new element to the array. x represents the position, y representing the number of elements to be removed
+	-The slice() method slices out a piece of an array into a new array. var z = array.slice(n,m); [ where n= i+1, i = index of array , n-start,m-end]
+	-concatinate() is used to add two arrays.   var z =  x.concat(y);
+->to convert to a string from object const X = JSON.stringify(object);
+
+SUMMARY:
+
+	Proficient in handling escalated calls and providing level 1 Technical Support to end-users.
+
+	Microsoft Outlook, Outlook Express configuration, backup, troubleshooting..
+	Experience in installation of Windows, configuration, Technical troubleshooting, support of server Hardware, operating systems, Microsoft application software and peripherals, Windows 95/98, 2000, 2003, Server, XP.
+	Preparing summary report.
+
+	Understanding business requirement document and identifying scenarios.
+
+	Knowledge on Writing & Executing SQL Statements.
+
+	Knowledge on SQL Server Database Management System. 
+
+	Good interpersonal skills, committed, result oriented, hard working with a quest and zeal to learn new technologies.
+
+
+              PRIYA MAM NOTES
+   CONDITIONS:-
+
+# Function:-functions are building blocks of js which can be reused many times with diff arguments to produce diff results
+
+
+Q)differents bw functions, function parameter, return statment.
+
+functions:-1)sets of statment that perform specific task.
+           2)Defined somewhere in the scope.
+           3)Invoked by a function call.
+functions parameters:-1)It a value that is excepted by a function.
+                      2)Parametes and function calls are argument.
+                      3)Arguments are parameters which are passed to function by value.
+return statments:-1)Every function should have a return statment.
+                  2)If a function has no return statment then default value is return.
+                  3)The default value is undefined.
+#Types of function:-
+  1)Named function
+  2)Anonimus function
+  3)Self invoking function
+  4)Constructor
+Examples:-
+1)Named function:-
+  function add(a,b){
+  console.log("function is named")
+  return a*b;
+  }
+  console.log(add(9,7));
+
+2)Anonimus function(the function that donot have a name and can be used once only and can be used variable):-
+   var unnamed= function(a,b){
+   console.log("hello");
+   return a*b;
+   }
+   console.log(unname(5,6));
+3)Self invoking function(is also similar to annomis only diff is paranthisys in self invoked functn, also used once, no return):-
+  var sum=(function(){
+  console.log(6*7);
+  }())
+
+
+#CLOSURES:-It is an inner function that has access to outer function variable in addition to its own variable a.The inner funtn not only hav asecess to own variable but also to parameters.
+ example:- 
+  // here two function are there i.e addNum() and add().
+  function addNum(a,b){   //a,b are parameters
+   var returnValue = "Result is:"
+   function add()
+   {
+   return retunValue + (a*b);
+   }
+   return add();
+   }
+   var result = addNum(10,20);
+   console.log(result);
+
+#ERRORS
+#ERROR handling Statment(Types:-try, catch,throw, finally)
+ 1) try:- 
+  try{
+  document.write("hello");
+  document.write("hello all, hows everything");
+  }
+  catch(e){
+  document.write("Message="+e.message  +"<br/>")
+  document.write("Description="+e.descriptiom +"<br/>");
+  }
+  finally{
+   document.write("Im from finally")
+  }
+ 3)Throw:-(this error comes in custome error)
+  function divide(){
+  var numeretor = Number(prompt("Enter a valid numerator"));
+  var denomenator = Number(prompt("Enter a valid denominator"))
+
+  try{
+ if(denominator == 0){
+ throw{
+  error:"Denominator cannot be Zero"
+  message: "Denominator is invalid type"
+  }
+ }
+ else{
+    document.write("Result is= "+(numerator/Denominator))
+  }
+  }
+ catch(e){
+  document.write("Error="+e.error +"<br/>")
+  document.write("Message=" +e.message+ "<br/>")
+ }
+ }
+ divide()
+
+ #ARRAY
+  
+  
